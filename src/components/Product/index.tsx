@@ -1,5 +1,7 @@
 import React from "react";
 
+import SellerInfo from "../SellerInfo";
+
 import {
   Container,
   Row,
@@ -9,6 +11,7 @@ import {
   Section,
   Description,
 } from "./styles";
+
 import tshirtImage from "../../assets/tshirt.png";
 
 const product: React.FC = () => {
@@ -30,7 +33,8 @@ const product: React.FC = () => {
 
         <Column>
           {/* <ProductAction /> */}
-          {/* <SellerInfo /> */}
+          <SellerInfo />
+
           <WarrantySection />
           <WarrantySection />
           <WarrantySection />
