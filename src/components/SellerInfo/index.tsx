@@ -58,7 +58,7 @@ const SellerInfo: React.FC = () => {
         </ReputationRow>
       </ReputationCard>
 
-      <More href="#">Ver mais dados do vendedor</More>
+      <More href="https://github.com/lbittencurt/react-mercado-livre-ui-clone">Ver mais dados do vendedor</More>
     </Container>
   );
 };

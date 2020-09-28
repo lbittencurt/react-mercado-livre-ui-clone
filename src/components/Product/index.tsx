@@ -19,8 +19,8 @@ const product: React.FC = () => {
   return (
     <Container>
       <Row>
-        <a href="#">Compartilhar</a>
-        <a href="#">Vender um igual</a>
+        <a href="https://github.com/lbittencurt/react-mercado-livre-ui-clone">Compartilhar</a>
+        <a href="https://github.com/lbittencurt/react-mercado-livre-ui-clone">Vender um igual</a>
       </Row>
 
       <Panel>
@@ -62,7 +62,7 @@ const WarrantySection = () => (
       </span>
     </div>
 
-    <a href="#">Saiba mais sobre garantia</a>
+    <a href="https://github.com/lbittencurt/react-mercado-livre-ui-clone">Saiba mais sobre garantia</a>
   </Section>
 );
 
