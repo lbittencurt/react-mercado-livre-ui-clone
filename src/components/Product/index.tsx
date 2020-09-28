@@ -1,6 +1,7 @@
 import React from "react";
 
 import SellerInfo from "../SellerInfo";
+import ProductAction from "../ProductAction";
 
 import {
   Container,
@@ -32,7 +33,7 @@ const product: React.FC = () => {
         </Column>
 
         <Column>
-          {/* <ProductAction /> */}
+          <ProductAction />
           <SellerInfo />
 
           <WarrantySection />
